@@ -71,8 +71,8 @@ function draw() {
   rectMode(CENTER);
   background(0);
  
-  packageSprite.x= helicopterSprite.position.x 
-  packageSprite.y= helicopterSprite.position.y 
+  packageSprite.x= packageBody.position.x 
+  packageSprite.y= packageBody.position.y 
 
   
   drawSprites();
